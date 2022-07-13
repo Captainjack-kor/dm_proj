@@ -4,7 +4,7 @@
       <div style="padding: 55px 0px 0px 50px;">
         Can find what you want
       </div>
-      <div class="menu_btn" style="border-left: 3px solid black; width: 50px; padding: 55px;">
+      <div class="menu_btn" style="border-left: 3px solid black; width: 150px; padding: 46px;">
         <div style="padding-left: 12px; cursor: pointer;">
           =
         </div>
@@ -22,6 +22,7 @@ export default {
   .header {
     width: 100%;
     height: 150px;
+    margin-bottom: 150px;
     position: fixed;
     font-size: 36px;
     font-family: Georgia, serif;
