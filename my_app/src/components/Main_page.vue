@@ -98,7 +98,7 @@ export default {
 
       this.excel_data = [];
       for(let i = 0; i < search_array.length; i++) {
-        axios.get(("http://localhost:8080/keywordstool"), {
+        axios.get(("/keywordstool"), {
           params: {
             real_data: encodeURI(search_array[i]),
             real_data2: "i am here plz find me",
